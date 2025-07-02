@@ -1,0 +1,110 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    body{
+      font-family: "Poppins", sans-serif;
+      
+    }
+    
+    
+    .navbar-brand img {
+      height: 30px;
+    }
+    /* .icon-btn {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      margin-left: 10px;
+    } */
+         .navbar-brand span {
+      font-weight: bold;
+    }
+    .navbar-icons i {
+      font-size: 1.2rem;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 991.98px) {
+      .navbar-icons {
+        margin-top: 10px;
+        justify-content: start;
+      }
+    }
+
+    /* header     */
+ .shop-banner {
+      background: url('../Images/1461f3d6ff74c027a1888544144abe4be6e02cbf\ \(1\).jpg') center center/cover no-repeat;
+      min-height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: #000;
+      position: relative;
+    }
+
+    .shop-banner::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(255, 255, 255, 0.6); /* Light blur overlay */
+      backdrop-filter: blur(4px);
+    }
+
+    .shop-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+      content: ">";
+    }
+    /* header */
+
+        .product-card {
+      border-radius: 10px;
+      background-color: #fff5ec;
+      padding: 15px;
+      transition: transform 0.3s ease;
+    }
+    .text1{
+font-weight: 500;
+font-size: 28px;
+line-height: 126%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .rating i {
+      color: #fcb900;
+    }
+
+    .product-image {
+      width: 100%;
+      height: auto;
+    }
+
+
+
+    .sidebar-link {
+      color: #444;
+      font-weight: 500;
+    }
+
+    .sidebar-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 767.98px) {
+      .product-meta {
+        text-align: center;
+      }
+    }
+    
+    
