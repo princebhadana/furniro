@@ -22,9 +22,15 @@
     @media (max-width: 991.98px) {
       .navbar-icons {
         margin-top: 10px;
-        justify-content: start;
+        justify-content: center;
       }
     }
+        .navbar-nav li {
+  display: block;
+  margin: -20px 0; /* kam gap ke liye */
+  padding-bottom: 30px;
+
+}
 
 /* header     */
  .shop-banner {
@@ -181,15 +187,31 @@
 
 
         .features-section {
+      background-color: white;
+    }
+  
+@media screen and (min-width:576px) {
+   .features-section {
       background-color: #fdf5eb;
     }
-
-    .feature-item {
+}
+@media screen and (max-width:576px) {
+    .feature-item{
+      background-color: #fdf5eb;
+      margin-top: 5px;
+    }
+}
+    .feature-item  {
       display: flex;
       align-items: center;
       gap: 15px;
       padding: 20px 10px;
     }
+    /* @media screen and (max-width:350px) {
+      .feature-item{
+        margin-top: 5px;
+      }
+    } */
 
     .feature-icon {
       font-size: 2rem;

@@ -27,16 +27,22 @@
     @media (max-width: 991.98px) {
       .navbar-icons {
         margin-top: 10px;
-        justify-content: start;
+        justify-content: center;
       }
     }
+        .navbar-nav li {
+  display: block;
+  margin: -20px 0; /* kam gap ke liye */
+  padding-bottom: 30px;
+
+}
 
 
 
     .hero-section {
       background: url('../Images/banner1.jpg') no-repeat center center;
       background-size: cover;
-      height: 100vh;
+      height: auto;
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -263,6 +269,7 @@ text-align: center;
         bottom: 0;
         right: 0;
       }
+  
 
       .img-4-container {
         position: relative;

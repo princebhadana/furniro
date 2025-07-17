@@ -27,9 +27,15 @@
     @media (max-width: 991.98px) {
       .navbar-icons {
         margin-top: 10px;
-        justify-content: start;
+        justify-content: center;
       }
     }
+        .navbar-nav li {
+  display: block;
+  margin: -20px 0; /* kam gap ke liye */
+  padding-bottom: 30px;
+
+}
 
     /* header     */
  .shop-banner {
