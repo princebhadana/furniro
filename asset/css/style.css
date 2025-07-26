@@ -18,17 +18,18 @@
       cursor: pointer;
     }
     .nav-link{
-width: 42;
-height: 24;
+width: 42px;
+height: 24px;
 opacity: 1;
 font-family: Poppins;
 font-weight: 500;
 font-style: Medium;
 font-size: 16px;
-padding-top: 38px;
+padding-top: 20px;
 line-height: 100%;
 letter-spacing: 0%;
-    }
+
+}
 
     @media (max-width: 991.98px) {
       .navbar-icons {
@@ -298,3 +299,72 @@ letter-spacing: 0%;
      color: #B88E2F;
      background-color: transparent;
     }
+
+
+    /* slider */
+                 .left-content {
+      padding: 50px 30px;
+    }
+    .heading {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+    }
+    .desc {
+      color: #666;
+      margin: 20px 0;
+    }
+    .btn-gold3 {
+      background-color: #c9a348;
+      color: white;
+      border: none;
+    }
+    .btn-gold3:hover {
+      background-color: #a3853a;
+    }
+    .carousel-item img {
+      width: 100%;
+
+      height: 500px;
+      object-fit: cover;
+    }
+    .slider-caption {
+      background: white;
+      padding: 15px;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .slider-caption small {
+      color: gray;
+    }
+
+    .room-text h1{
+font-weight: 700;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0%;
+    }
+    .room-text p{
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+    }
+    .room-text a{
+      width: 176px;
+      height: 48px;
+      background-color: #B88E2F;
+      color: white;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+border-radius: 0%;
+text-align: center;
+padding-top: 10px;
+
+    }
+    /* slider */
